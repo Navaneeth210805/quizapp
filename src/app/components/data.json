@@ -1,0 +1,95 @@
+{
+    "quiz": [
+      {
+        "id": 1,
+        "question": "What is the capital of France?",
+        "options": ["Berlin", "Madrid", "Paris", "Rome"],
+        "answer": "Paris"
+      },
+      {
+        "id": 2,
+        "question": "Which planet is known as the Red Planet?",
+        "options": ["Jupiter", "Mars", "Venus", "Saturn"],
+        "answer": "Mars"
+      },
+      {
+        "id": 3,
+        "question": "Who wrote the play 'Hamlet'?",
+        "options": ["William Shakespeare", "Jane Austen", "Leo Tolstoy", "Charles Dickens"],
+        "answer": "William Shakespeare"
+      },
+      {
+        "id": 4,
+        "question": "What is the chemical symbol for water?",
+        "options": ["H2O", "CO2", "NaCl", "O2"],
+        "answer": "H2O"
+      },
+      {
+        "id": 5,
+        "question": "Which ocean is the largest?",
+        "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+        "answer": "Pacific Ocean"
+      },
+      {
+        "id": 6,
+        "question": "Who painted the Mona Lisa?",
+        "options": ["Pablo Picasso", "Vincent van Gogh", "Leonardo da Vinci", "Claude Monet"],
+        "answer": "Leonardo da Vinci"
+      },
+      {
+        "id": 7,
+        "question": "Which country is famous for its tulips?",
+        "options": ["Netherlands", "Italy", "Germany", "France"],
+        "answer": "Netherlands"
+      },
+      {
+        "id": 8,
+        "question": "What is the smallest planet in our solar system?",
+        "options": ["Venus", "Earth", "Mercury", "Mars"],
+        "answer": "Mercury"
+      },
+      {
+        "id": 9,
+        "question": "Who wrote 'To Kill a Mockingbird'?",
+        "options": ["Harper Lee", "Mark Twain", "F. Scott Fitzgerald", "Ernest Hemingway"],
+        "answer": "Harper Lee"
+      },
+      {
+        "id": 10,
+        "question": "Which city hosted the 2016 Summer Olympics?",
+        "options": ["London", "Rio de Janeiro", "Tokyo", "Sydney"],
+        "answer": "Rio de Janeiro"
+      },
+      {
+        "id": 11,
+        "question": "What is the currency of Japan?",
+        "options": ["Yen", "Dollar", "Euro", "Pound"],
+        "answer": "Yen"
+      },
+      {
+        "id": 12,
+        "question": "Who discovered penicillin?",
+        "options": ["Alexander Fleming", "Louis Pasteur", "Marie Curie", "Robert Koch"],
+        "answer": "Alexander Fleming"
+      },
+      {
+        "id": 13,
+        "question": "What is the largest mammal in the world?",
+        "options": ["Elephant", "Blue whale", "Giraffe", "Hippo"],
+        "answer": "Blue whale"
+      },
+      {
+        "id": 14,
+        "question": "Which planet is known as the 'Morning Star' or 'Evening Star'?",
+        "options": ["Mars", "Venus", "Mercury", "Jupiter"],
+        "answer": "Venus"
+      },
+      {
+        "id": 15,
+        "question": "Who wrote '1984'?",
+        "options": ["Aldous Huxley", "George Orwell", "Ray Bradbury", "J.R.R. Tolkien"],
+        "answer": "George Orwell"
+      }
+    ]
+  }
+  
