@@ -140,7 +140,7 @@ function Page({ question, option1, option2, option3, option4, handleAnswer, hand
                     </div>
                 </div>
                 <div className="mt-7">
-                    <button className="bg-orange-500 transition duration-500 linear hover:bg-orange-700 rounded-full h-10 w-10 mt-8 relative z-10" onClick={handleNext}>
+                    <button className="bg-orange-500 transition duration-500 linear hover:bg-orange-700 rounded-full h-10 w-10 relative z-10" onClick={handleNext}>
                         <div className="ml-4 h-1 w-5 bg-white transform rotate-45"></div>
                         <div className="mx-1 my-0.5 h-1 w-7 bg-white"></div>
                         <div className="ml-4 h-1 w-5 bg-white transform -rotate-45"></div>
