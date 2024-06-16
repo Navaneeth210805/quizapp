@@ -128,7 +128,7 @@ function Page({ question, option1, option2, option3, option4, handleAnswer, hand
                             )
                         }
                         </div>
-                        <div className='mb-4 w-11/12 lg:w-auto'>
+                        <div className='w-11/12 lg:w-auto'>
                         {
                             currentAnswer === option4 ?(
                                 <button className='mb-10 w-11/12 border-2 rounded-3xl border-gray-600 lg:h-20 lg:w-96 lg:mr-10 text-3xl bg-white text-black '>{option4}</button>
@@ -139,7 +139,7 @@ function Page({ question, option1, option2, option3, option4, handleAnswer, hand
                         </div>
                     </div>
                 </div>
-                <div className="mt-10">
+                <div className="mt-7">
                     <button className="bg-orange-500 transition duration-500 linear hover:bg-orange-700 rounded-full h-10 w-10 mt-8 relative z-10" onClick={handleNext}>
                         <div className="ml-4 h-1 w-5 bg-white transform rotate-45"></div>
                         <div className="mx-1 my-0.5 h-1 w-7 bg-white"></div>
