@@ -96,38 +96,48 @@ function Page({ question, option1, option2, option3, option4, handleAnswer, hand
         <>
             <RippleBackground/>
             <div className='flex flex-col justify-center items-center h-screen'>
-                <div className='h-28 text-white w-screen mb-16 text-center py-11 text-5xl'>{question}</div>
-                <div className='flex mb-4'>
-                    {
-                        currentAnswer === option1 ?(
-                            <button className='border-2 rounded-3xl border-gray-600 h-20 w-96 mr-10 text-3xl bg-white text-black'>{option1}</button>
-                        ):(
-                            <button className='border-2 rounded-3xl border-gray-600 text-white h-20 w-96 mr-10 text-3xl hover:bg-white hover:text-black transition duration-300' onClick={() => handleAnswer(option1)}>{option1}</button>
-                        )
-                    }
-                    {
-                        currentAnswer === option2 ?(
-                            <button className='border-2 rounded-3xl border-gray-600 h-20 w-96 mr-10 text-3xl bg-white text-black'>{option2}</button>
-                        ):(
-                            <button className='border-2 rounded-3xl border-gray-600 text-white h-20 w-96 mr-10 text-3xl hover:bg-white hover:text-black transition duration-300' onClick={() => handleAnswer(option2)}>{option2}</button>
-                        )
-                    }
-                </div>
-                <div className='flex'>
-                    {
-                        currentAnswer === option3 ?(
-                            <button className='border-2 rounded-3xl border-gray-600 h-20 w-96 mr-10 text-3xl bg-white text-black'>{option3}</button>
-                        ):(
-                            <button className='border-2 rounded-3xl border-gray-600 text-white h-20 w-96 mr-10 text-3xl hover:bg-white hover:text-black transition duration-300' onClick={() => handleAnswer(option3)}>{option3}</button>
-                        )
-                    }
-                    {
-                        currentAnswer === option4 ?(
-                            <button className='border-2 rounded-3xl border-gray-600 h-20 w-96 mr-10 text-3xl bg-white text-black'>{option4}</button>
-                        ):(
-                            <button className='border-2 rounded-3xl border-gray-600 text-white h-20 w-96 mr-10 text-3xl hover:bg-white hover:text-black transition duration-300' onClick={() => handleAnswer(option4)}>{option4}</button>
-                        )
-                    }   
+                <div className='h-28 text-white w-full mb-16 text-center py-11 text-3xl lg:text-5xl'>{question}</div>
+                <div className='flex flex-col w-full'>
+                    <div className='flex flex-col lg:flex-row justify-center items-center'>
+                        <div className='mb-4 w-11/12 lg:w-auto'>
+                            {
+                                currentAnswer === option1 ?(
+                                    <button className='mb-10 w-11/12  flex justify-center items-center border-2 rounded-3xl border-gray-600 lg:h-20 lg:w-96 lg:mr-10 lg:ml-auto text-3xl bg-white text-black'>{option1}</button>
+                                ):(
+                                    <button className='mb-10 w-11/12  flex justify-center items-center border-2 rounded-3xl border-gray-600 text-white lg:h-20 lg:w-96 lg:mr-10 lg:ml-auto text-3xl hover:bg-white hover:text-black transition duration-300 ' onClick={() => handleAnswer(option1)}>{option1}</button>
+                                )
+                            }
+                        </div>
+                        <div className='mb-4 w-11/12 lg:w-auto'>
+                            {
+                                currentAnswer === option2 ?(
+                                    <button className='mb-10 w-11/12  flex justify-center items-center border-2 rounded-3xl border-gray-600 lg:h-20 lg:w-96 lg:mr-10 lg:ml-auto text-3xl bg-white text-black '>{option2}</button>
+                                ):(
+                                    <button className='mb-10 w-11/12  flex justify-center items-center border-2 rounded-3xl border-gray-600 text-white lg:h-20 lg:w-96 lg:mr-10 lg:ml-auto text-3xl hover:bg-white hover:text-black transition duration-300 ' onClick={() => handleAnswer(option2)}>{option2}</button>
+                                )
+                            }
+                        </div>
+                    </div>
+                    <div className='flex flex-col lg:flex-row justify-center items-center'>
+                        <div className='mb-4 w-11/12 lg:w-auto'>
+                        {
+                            currentAnswer === option3 ?(
+                                <button className='mb-10 w-11/12  border-2 rounded-3xl border-gray-600 lg:h-20 lg:w-96 lg:mr-10 lg:ml-auto text-3xl bg-white text-black '>{option3}</button>
+                            ):(
+                                <button className='mb-10 w-11/12  border-2 rounded-3xl border-gray-600 text-white lg:h-20 lg:w-96 lg:mr-10 lg:ml-auto text-3xl hover:bg-white hover:text-black transition duration-300 ' onClick={() => handleAnswer(option3)}>{option3}</button>
+                            )
+                        }
+                        </div>
+                        <div className='mb-4 w-11/12 lg:w-auto'>
+                        {
+                            currentAnswer === option4 ?(
+                                <button className='mb-10 w-11/12 border-2 rounded-3xl border-gray-600 lg:h-20 lg:w-96 lg:mr-10 text-3xl bg-white text-black '>{option4}</button>
+                            ):(
+                                <button className='mb-10 w-11/12 border-2 rounded-3xl border-gray-600 text-white lg:h-20 lg:w-96 lg:mr-10 text-3xl hover:bg-white hover:text-black transition duration-300' onClick={() => handleAnswer(option4)}>{option4}</button>
+                            )
+                        }   
+                        </div>
+                    </div>
                 </div>
                 <div className="mt-10">
                     <button className="bg-orange-500 transition duration-500 linear hover:bg-orange-700 rounded-full h-10 w-10 mt-8 relative z-10" onClick={handleNext}>
